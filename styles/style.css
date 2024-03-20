@@ -14,7 +14,6 @@ body {
     justify-content: center;
 }
 
-
 body::before {
     background-image: url("../images/code.png");
     background-repeat: no-repeat;
@@ -113,4 +112,24 @@ button {
 .texto__parrafo {
     font-size: 32px;
     font-weight: 400;
+}
+
+/* Estilos adicionales para Tablets */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .texto__parrafo {
+        font-size: 20px;
+    }
+
+    .container__boton {
+        font-size: 20px;
+}
+
+    .container__imagen-persona {
+        width: 200px; 
+        height: auto;
+    }
 }
